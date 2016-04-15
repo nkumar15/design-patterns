@@ -1,8 +1,13 @@
 #include <iostream>
+#include "../include/Singleton.h"
 
 using namespace std;
 
+
 int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
+
+    /* Singleton call */
+    Singleton *obj = get_singleton_instance();
+
+
 }
