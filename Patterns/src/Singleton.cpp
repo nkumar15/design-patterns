@@ -9,19 +9,17 @@ class Singleton
 private:
     Singleton(){}
     Singleton(Singleton&){}
-    Singleton&operator=(Singleton &){}
+    Singleton& operator=(Singleton &){}
 
 public:
     static Singleton* get_instance()
     {
+        /* static member instance is thread safe from C++11 onwards */
         static Singleton *instance;
 
         if(instance == nullptr)
         {
-            if(instance == nullptr)
-            {
                 instance  = new Singleton();
-            }
         }
         return  instance;
     }
