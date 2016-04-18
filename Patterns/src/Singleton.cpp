@@ -14,7 +14,7 @@ private:
 public:
     static Singleton* get_instance()
     {
-        /* static member instance is thread safe from C++11 onwards */
+        /* local static member instance is thread safe from C++11 onwards */
         static Singleton *instance;
 
         if(instance == nullptr)
