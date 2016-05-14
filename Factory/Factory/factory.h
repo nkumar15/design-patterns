@@ -1,6 +1,0 @@
-#ifndef FACTORY_H_INCLUDED
-#define FACTORY_H_INCLUDED
-
-
-
-#endif // FACTORY_H_INCLUDED
