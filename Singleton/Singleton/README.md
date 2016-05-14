@@ -2,7 +2,8 @@
 
 
 ## Leftover work
->Some code comments and explainations are still pending.
+> Making it extensible and generic.
+> Serialization
 
 ## Use case
 Sometimes it's required to have only one instance of a class. For example
@@ -15,12 +16,13 @@ There are many points which needs to be considered while singleton implentation
 However in existing implementation not all the points are considered. But it can
 be treated as good start to implement other requirements.
 - Dealing with multithreaded enviroment.
-- Dealing with serialization.
 - Lazy instantiation or early instantiation.
-- Return object by pointer or reference.
+- Return object by pointer or reference?
 - Rule of 3 in C++03 and Rule of 5 in C++11 onwards.
 - How to make it extensible. Benefits?
 - Underyling object as static member?
+- Template based?
+- Dealing with serialization.
 
 ## Important links for more details
 - [C++ and the Perils of Double-Checked Locking] (http://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf)
