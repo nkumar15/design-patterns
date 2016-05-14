@@ -15,17 +15,25 @@ public:
     void increment();
     void decrement();
     void show();
+    
+        
+    /* Delete the default implementation of copy constructor and assignment operator */
+    /* Alternatively ++03 standard, we can provide empty definition in private mode */
+    Singleton(Singleton&) = delete;
+    Singleton& operator=(Singleton&) = delete;
+    
+    /* Delete the default implementation of move constructor and move assignment operator */
+    Singleton(Singleton &&) = delete;
+    Singleton& operator=(Singleton &&) = delete;
 
 private:
     int counter;
 
-    /* Will put details on rule of 5 */
+    /* Default constructor should be private so that it cannot be instantiated outside 
+    by any external function */
     Singleton();
-    Singleton(Singleton&){}
-    Singleton(Singleton &&) {}
-    Singleton& operator=(Singleton &)= delete;
-    Singleton& operator=(Singleton &&) = delete;
 
+    
 };
 
 
