@@ -4,16 +4,16 @@ Singleton :: Singleton(){
     counter = 0;
 }
 
-Singleton* Singleton :: get_instance(){
+Singleton& Singleton :: get_instance(){
     /* local static member instance is thread safe from C++11 onwards */
-    /* Will put detail on other alternatives and pros and cons */
+    /* no locks mutex are required unlike C++03 */
     static Singleton *instance;
 
     if(instance == nullptr)
     {
         instance  = new Singleton();
     }
-    return  instance;
+    return  *instance;
 }
 
 
@@ -31,8 +31,8 @@ void Singleton :: show(){
 
 /* Why this static function is required */
 /* Will put details soon */
-Singleton* get_singleton_instance()
+Singleton& get_singleton_instance()
 {
-    Singleton *obj = Singleton::get_instance();
+    Singleton& obj = Singleton::get_instance();
     return obj;
 }
