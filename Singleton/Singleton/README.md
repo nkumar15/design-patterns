@@ -12,6 +12,8 @@ Sometimes it's required to have only one instance of a class. For example
 
 ## Implementation
 There are many points which needs to be considered while singleton implentation
+However in existing implementation not all the points are considered. But it can
+be treated as good start to implement other requirements.
 - Dealing with multithreaded enviroment.
 - Dealing with serialization.
 - Lazy instantiation or early instantiation.
