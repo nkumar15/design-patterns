@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1463202244 source:f:\study+work\progs\designpatterns\factory\factory\main.cpp
+	<iostream>
+	"shapefactory.h"
+
+1463202180 f:\study+work\progs\designpatterns\factory\factory\shapefactory.h
+	<iostream>
+
+1463202199 source:f:\study+work\progs\designpatterns\factory\factory\shapefactory.cpp
+	"shapefactory.h"
+
