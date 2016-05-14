@@ -9,3 +9,10 @@
 1463202199 source:f:\study+work\progs\designpatterns\factory\factory\shapefactory.cpp
 	"shapefactory.h"
 
+1463223558 source:f:\programs\designpatterns\factory\factory\main.cpp
+	<iostream>
+	"shapefactory.h"
+
+1463223730 f:\programs\designpatterns\factory\factory\shapefactory.h
+	<iostream>
+
