@@ -15,7 +15,7 @@ Shape* ShapeFactory :: create_shape(shape_types type){
         return new Square();
     else{
         cout << "Invalid type" << endl;
-        return nullptr;
+        exit(0);
     }
 }
 
