@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1464411046 source:f:\programs\designpatterns\builder\builder\main.cpp
+	<iostream>
+	"include/builder.h"
+	"include/director.h"
+
+1464411274 source:f:\programs\designpatterns\builder\builder\src\builder.cpp
+	"../include/builder.h"
+
+1464410223 f:\programs\designpatterns\builder\builder\include\builder.h
+	<iostream>
+	<vector>
+
+1464410812 source:f:\programs\designpatterns\builder\builder\src\director.cpp
+	"../include/director.h"
+
+1464410804 f:\programs\designpatterns\builder\builder\include\director.h
+	"builder.h"
+
