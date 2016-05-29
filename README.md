@@ -19,6 +19,7 @@ system independent of how its objects are created,composed, and represented.
     * Facade
     * Flyweight
     * Proxy
+    
 * Behavioral patterns :  Are concerned with algorithms and theassignment of responsibilities between objects. Behavioral patternsdescribe not just patterns of objects or classes but also the patternsof communication between them.
     * Chain of responsibilty
     * Command
