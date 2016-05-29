@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1464500514 source:f:\programs\designpatterns\bridge\bridge\main.cpp
+	<iostream>
+	"include/shape.h"
+
+1464500201 source:f:\programs\designpatterns\bridge\bridge\src\color.cpp
+	"../include/colors.h"
+
+1464499746 f:\programs\designpatterns\bridge\bridge\include\colors.h
+	<iostream>
+
+1464500332 source:f:\programs\designpatterns\bridge\bridge\src\shape.cpp
+	"../include/shape.h"
+
+1464500329 f:\programs\designpatterns\bridge\bridge\include\shape.h
+	"colors.h"
+
