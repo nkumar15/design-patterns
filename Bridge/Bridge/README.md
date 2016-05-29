@@ -20,6 +20,6 @@
 
 
 ## Comparison
-- Similar to Adapter and Strategy pattern.
+- Similar to Adapter, Strategy pattern and template pattern.
 - As per UML diagram they all look similar but there business purpose(intent) is different.
 - code-wise, Adapter and Bridge patterns are very similar. Business-wise, they're different.
