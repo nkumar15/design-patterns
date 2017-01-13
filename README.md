@@ -1,5 +1,5 @@
 # DesignPatterns
-This repository contains examples on Design patterns developed in C++ using CodeBlocks IDE.
+This repository contains examples on Design patterns developed in C++.
 
 ## Concepts
 * Creational pattern : Creational design patterns abstract the instantiation process.They help make a
