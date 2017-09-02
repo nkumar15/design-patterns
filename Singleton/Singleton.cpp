@@ -1,32 +1,36 @@
 #include "Singleton.h"
 
-Singleton :: Singleton(){
+Singleton::Singleton()
+{
     counter = 0;
 }
 
-Singleton& Singleton :: get_instance(){
+Singleton& Singleton::get_instance()
+{
     /* local static member instance is thread safe from C++11 onwards */
     /* no locks mutex are required unlike C++03 */
     static Singleton *instance;
 
-    if(instance == nullptr)
+    if (instance == nullptr)
     {
-        instance  = new Singleton();
+        instance = new Singleton();
     }
-    return  *instance;
+    return *instance;
 }
 
-
-void Singleton :: increment(){
-        counter++;
+void Singleton::increment()
+{
+    counter++;
 }
 
-void Singleton :: decrement(){
-        counter--;
+void Singleton::decrement()
+{
+    counter--;
 }
 
-void Singleton :: show(){
-    cout<<counter<<endl;
+void Singleton::show()
+{
+    cout << counter << endl;
 }
 
 /* Why this static function is required */
