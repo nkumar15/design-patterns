@@ -1,5 +1,0 @@
-# depslib dependency file v1.0
-1464404064 source:f:\programs\designpatterns\factorymethod\factorymethod\main.cpp
-	<iostream>
-	<memory>
-
